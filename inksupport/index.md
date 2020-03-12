@@ -14,7 +14,7 @@ You can download here a small leaflet that will give your the basic tips to use 
 Any SteamVR Base Station (lighthouse) based system such as:
 
 | Valve Index |  Vive Pro | Vive Pro eye | Vive | Varjo |
-|---| ---| --- | --- | --- | --- |
+|---| ---| --- | --- | --- |
 <br>
 
 ## Does VR Ink work on Oculus Quest, Rift or Windows Mixed Reality?
@@ -61,8 +61,8 @@ The VR Ink can be used in the following configurations:
 | **Green**		    |  Paired and in normal operating mode |
 | **Blinking Red** 	|   Battery Low|
 | **Blinking Blue** |	VR Ink  in pairing mode|
-| **Orang**e	|      Charging|
-| **Whit**e		|      Charged|
+| **Orange**	|      Charging|
+| **White**		|      Charged|
 | **Blue**		|      Device is ON but not paired|
 <br>
 
