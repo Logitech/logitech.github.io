@@ -1,88 +1,149 @@
-# Logitech VR Ink Help page
+# Quick start Guide
 
-## Quick start Guide
-
-You can download here a small leaflet that will give your the basic tips to use your Logitech VR Ink stylus
+You can download here a small leaflet that will give your the basic tips to use your Logitech VR Ink stylus:
 
 * Download it [here](./files/Logitech_VR_Ink_v4.pdf).
 
+
+<br>
+
 # FAQ
 
-## How can I pair a VR Ink to a Base Station (lighthouse) based system?
-
-1. Ensure your headset is ON and tracking.
-2. Turn ON your VR Ink (long press on SYSTEM button).
-3. On the SteamVR dashboard select pair controller and wait (VR Ink LED is green when connected).
-4. Start VR Ink Pairing mode (Long press both SYSTEM and MENU buttons until the LED blinks blue).
-
-## What is the best Base Station (lighthouse) placement and configurations for VR Ink?
-
-The VR Ink can be used in the following configurations:
-* 4x Base Station 2.0 configuration recommended
-* 1-2x Base Station 2.0 or 1.0 can also work, but the coverage and performance will be reduced.
-
-## What is the recommended SteamVR version?
-VR Ink works with SteamVR 1.9.x and later.
-
-## What does the status LED on VR Ink mean?
-* Green		Paired and in normal operating mode
-* Blinking Red 	Battery Low
-* Blinking Blue 	VR Ink  in pairing mode
-* Orange	Charging
-* White		Charged
-* Blue		Device is ON but not paired
-
-## Can I change the sensitivity of the VR Ink Controls?
-Yes. The VR Ink desktop driver  interface allows you to modify the sensitivity of the following controls:
-* Grip force
-* Tip force
-* Primary button
 
 ## What platforms are VR Ink compatible with?
-Any SteamVR Base Station (lighthouse) based system
-* Valve Index
-* Vive Pro
-* Vive
-* Varjo
+Any SteamVR Base Station (lighthouse) based system such as:
 
-## Does VR Ink work on Oculus or Windows Mixed Reality?
-No. VR Ink only works on the SteamVR Base Station (lighthouse) tracking system.
+| Valve Index |  Vive Pro | Vive Pro eye | Vive | Varjo |
+|---| ---| --- | --- | --- | --- |
+<br>
+
+## Does VR Ink work on Oculus Quest, Rift or Windows Mixed Reality?
+No.<br>VR Ink **only works on the SteamVR Base Station** (lighthouse) tracking system.
+<br>
+<br>
+
+## What is the recommended SteamVR version?
+VR Ink works with **SteamVR 1.9.x** or later.
+<br>
+<br>
+
+## What do I need to install to use VR Ink ?
+Easy, you need to:
+* Install our [Logitech VR Ink driver](https://store.steampowered.com/app/1068300/Logitech_VR_Ink_Driver/) from the Steam Store.
+* Run SteamVR (1.9 or later).
+* Start any compatible app (see below).
+<br>
+<br>
+
+
+
+## How can I pair a VR Ink ?
+1. Ensure your headset is ON and tracking.
+2. Turn OFF one of your controllers (the right one, if you plan to use VR Ink with your right hand)
+3. Turn ON your VR Ink (long press on SYSTEM button).
+4. On the SteamVR status window's menu select **Devices -> Pair Controller**
+5. Optionally select "I want to pair a different type of controller ..." and follow the on-screen instructions.
+6. Set VR Ink into Pairing mode: **Long press both SYSTEM and MENU buttons** until the Stylus LED blinks blue.
+7. Wait until the Stylus LED turns green.
+<br>
+<br>
+
+## What is the best Base Station placement and configurations for VR Ink?
+The VR Ink can be used in the following configurations:
+* 4x SteamVR Base Station 2.0 configuration (recommended).
+* 1-2x SteamVR Base Station 2.0 or 1.0 can also work, but the coverage and performance will be reduced.
+<br>
+<br>
+
+## What does the status LED on VR Ink mean?
+| Color | Status |
+| -- | -- |
+| **Green**		    |  Paired and in normal operating mode |
+| **Blinking Red** 	|   Battery Low|
+| **Blinking Blue** |	VR Ink  in pairing mode|
+| **Orang**e	|      Charging|
+| **Whit**e		|      Charged|
+| **Blue**		|      Device is ON but not paired|
+<br>
+
+## Can I change the sensitivity of the VR Ink Controls?
+Yes.<br>
+* Make sure to have **our driver installed** (from the [Steam Store](https://store.steampowered.com/app/1068300/Logitech_VR_Ink_Driver/))
+* open the UI either from the **task bar** or the from the **tray icon**.
+
+The VR Ink desktop driver interface allows you to modify the sensitivity curve of the following controls:
+* Grip force
+* Tip force
+* Primary button force
+* Touchstrip settings
+<br>
+<br>
 
 ## What Apps or Programs work with VR Ink?
-See main web page for a complete list of compatible Apps. We are currently working with developers to integrate with more Apps.
+See our [Application partners web page](https://www.logitech.com/en-roeu/promo/vr-ink/application-partners.html) for a complete list of compatible Apps. We are currently working with several developers to integrate with more Apps.
+<br>
+<br>
 
 ## Does VR Ink work in SteamVR ‘Safe Mode’?
 No, it does not. <br>
-When SteamVR is in safe mode it disables all additional drivers, including the one that manages VR Ink.  Restart SteamVR and make sure it is not in "safe mode" to use VR Ink.
+When SteamVR is in safe mode **it disables all additional drivers**, including the one that manages VR Ink:
+* Make sure your full VR system is working and that the HMD is connected and ON.
+* Restart SteamVR and make sure to **disable "safe mode"** to use VR Ink.
+<br>
+<br>
 
 ## Can I use two VR Inks at the same time?
-Currently it is not possible to use two VR Inks at the same time
+Currently it is not possible to use two VR Inks at the same time.
+<br>
+<br>
 
 ## What should I do if VR Ink is not being tracked in VR?
 1. Make sure that the VR Ink is placed inside the play area.
 2. Turn the VR Ink off and on again to reactivate the tracking.
-3. Restart the SteamVR app.
-4. Reboot your computer and reopen the SteamVR app
+3. Restart SteamVR.
+4. Reboot your computer and reopen SteamVR.
+<br>
+<br>
 
 ## Can I use VR Ink in my Left hand (or right hand)?
 Yes.
+<br>
+<br>
 
 ## How do I charge VR Ink?
-Use the supplied USB and Adapter.
+Use the supplied USB cable and power brick (in box).
+<br>
+<br>
+
 
 ## Can I use VR Ink while charging?
 Yes.
+<br>
+<br>
 
 ## Can I change the bindings of my VR Ink?
-Yes, you can change the bindings on the VR Ink for each application.  On the SteamVR app, go to Devices->Controller settings and choose which application to tune. Be sure to choose the Logitech Stylus as the current Controller.
+Yes.<br> You can change the bindings on the VR Ink for each application.
+On the SteamVR status window, go to **Devices->Controller settings** and choose **Manage Controller Settings** then select which application to tune. Be sure to choose the Logitech Stylus as the **active Controller**.
+<br>
+<br>
 
 ## Can I use my VR Ink without any Head Mounted Display?
-No, VR Ink relies on the SteamVR Lighthouse system to track, and needs an HMD to be plugged into the computer.
+No.<br>
+VR Ink relies on the SteamVR Base stations (Lighthouses) system to track, and needs an HMD to be plugged into the computer.
+<br>
+<br>
 
-## Can I use my VR Ink without installing Steam?
+## Can I use my VR Ink without installing Steam (Store)?
 Yes. <br>
-please contact us at [inksupport@logitech.com](mailto:inksupport@logitech.com) to get a specific version for your needs.
-You still need to have access to an offline version of SteamVR. For instance [Vive Enterprise Device Management System](https://enterprise.vive.com/eu/dms/) gives you access to offline builds of SteamVR.
+* Please contact us at [inksupport@logitech.com](mailto:inksupport@logitech.com) to get a specific version for your needs.
+* However You still need to have installed an **offline version of SteamVR**. For instance [Vive Enterprise Device Management System](https://enterprise.vive.com/eu/dms/) gives you access to offline builds of SteamVR.
+<br>
+<br>
 
 ## Can I use my VR Ink offline?
-Yes, once all the components ([Logitech VR Ink driver](https://store.steampowered.com/app/1068300/Logitech_VR_Ink_Driver/) & SteamVR) are installed you don't need to be online to use it.
+Yes.<br> Once all the components ([Logitech VR Ink driver](https://store.steampowered.com/app/1068300/Logitech_VR_Ink_Driver/) & SteamVR) are installed you don't need to be online to use it.
+<br>
+<br>
+
+## What if I have other questions ?
+Please contact us at [inksupport@logitech.com](mailto:inksupport@logitech.com), we'll be happy to answer your specific question.
