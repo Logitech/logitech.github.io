@@ -60,12 +60,12 @@ The VR Ink can be used in the following configurations:
 
 ## What does the status LED on VR Ink mean?
 
-**Green**: Paired and in normal operating mode.
-**Blinking Red**: Battery Low.
-**Blinking Blue**: VR Ink  in pairing mode.
-**Orange**: Charging.
-**White**: Charged.
-**Blue**: Device is ON but not paired.
+**Green**: Paired and in normal operating mode.<br>
+**Blinking Red**: Battery Low.<br>
+**Blinking Blue**: VR Ink  in pairing mode.<br>
+**Orange**: Charging.<br>
+**White**: Charged.<br>
+**Blue**: Device is ON but not paired.<br>
 <br>
 
 ## Can I change the sensitivity of the VR Ink Controls?
