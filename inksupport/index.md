@@ -2,7 +2,7 @@
 
 You can download here a small leaflet that will give your the basic tips to use your Logitech VR Ink stylus:
 
-* Download it [here](./files/Logitech_VR_Ink_v4.pdf).
+* Download it [here](./files/Logitech_VR_Ink_QSG.pdf).
 
 
 <br>
@@ -13,8 +13,11 @@ You can download here a small leaflet that will give your the basic tips to use 
 ## What platforms are VR Ink compatible with?
 Any SteamVR Base Station (lighthouse) based system such as:
 
-| Valve Index |  Vive Pro | Vive Pro eye | Vive | Varjo |
-|---| ---| --- | --- | --- |
+* Valve Index
+* Vive
+* Vive Pro
+* Vive Pro eye
+* Varjo
 <br>
 
 ## Does VR Ink work on Oculus Quest, Rift or Windows Mixed Reality?
@@ -56,14 +59,13 @@ The VR Ink can be used in the following configurations:
 <br>
 
 ## What does the status LED on VR Ink mean?
-| Color | Status |
-| -- | -- |
-| **Green**		    |  Paired and in normal operating mode |
-| **Blinking Red** 	|   Battery Low|
-| **Blinking Blue** |	VR Ink  in pairing mode|
-| **Orange**	|      Charging|
-| **White**		|      Charged|
-| **Blue**		|      Device is ON but not paired|
+
+**Green**: Paired and in normal operating mode.
+**Blinking Red**: Battery Low.
+**Blinking Blue**: VR Ink  in pairing mode.
+**Orange**: Charging.
+**White**: Charged.
+**Blue**: Device is ON but not paired.
 <br>
 
 ## Can I change the sensitivity of the VR Ink Controls?
