@@ -2,7 +2,7 @@
 
 You can download here a small leaflet that will give your the basic tips to use your Logitech VR Ink stylus:
 
-* Download it [here](./files/Logitech_VR_Ink_v4.pdf).
+* Download it [here](./files/Logitech_VR_Ink_QSG.pdf).
 
 
 <br>
