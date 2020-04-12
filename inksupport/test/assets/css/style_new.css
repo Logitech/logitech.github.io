@@ -5,8 +5,52 @@
 	box-sizing: inherit
 }
 
+@font-face {
+    font-family: "Brown-Pro-Bold";
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-bold.eot");
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-bold.eot?#iefix") format("embedded-opentype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-bold.woff") format("woff"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-bold.ttf") format("truetype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-bold.svg#lineto-brown-pro-bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Brown-Pro-Thin";
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-thin.eot");
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-thin.eot?#iefix") format("embedded-opentype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-thin.woff") format("woff"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-thin.ttf") format("truetype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-thin.svg#lineto-brown-pro-thin") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Brown-Pro-Light";
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-light.eot");
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-light.eot?#iefix") format("embedded-opentype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-light.woff") format("woff"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-light.ttf") format("truetype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-light.svg#lineto-brown-pro-light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Brown-Pro-Regular";
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-regular.eot");
+    src:url("https://www.logitech.com/asset/fonts/lineto-brown-pro-regular.eot?#iefix") format("embedded-opentype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-regular.woff") format("woff"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-regular.ttf") format("truetype"),
+        url("https://www.logitech.com/asset/fonts/lineto-brown-pro-regular.svg#lineto-brown-pro-regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
-	font: inherit
+	font-family: "Brown-Pro-Light";
 }
 
 html,
@@ -3972,11 +4016,11 @@ body {
 }
 
 .cd-header {
-	--header-height: 180px;
-	height: 180px;
+	--header-height: 250px;
+	height: 250px;
 	height: var(--header-height);
-	background-color: hsl(73, 46%, 55%);
-	background-color: var(--cd-color-2)
+	background-color: hsl(0, 0%, 100%);
+	/*background-color: var(--cd-color-2)*/
 }
 
 @media (min-width: 80rem) {
