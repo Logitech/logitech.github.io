@@ -1100,7 +1100,6 @@ svg {
 body {
 	font-size: 1em;
 	font-size: var(--text-base-size, 1em);
-	font-family: 'Open Sans', sans-serif;
 	font-family: var(--font-primary, sans-serif);
 	color: hsl(240, 4%, 20%);
 	color: var(--color-contrast-high, #313135)
@@ -4016,8 +4015,8 @@ body {
 }
 
 .cd-header {
-	--header-height: 250px;
-	height: 250px;
+	--header-height: 400px;
+	height: 400px;
 	height: var(--header-height);
 	background-color: hsl(0, 0%, 100%);
 	/*background-color: var(--cd-color-2)*/
@@ -4025,7 +4024,7 @@ body {
 
 @media (min-width: 80rem) {
 	.cd-header {
-		height: 240px;
+		height: 400px;
 		height: var(--header-height)
 	}
 }
@@ -4042,7 +4041,7 @@ body {
 
 @media (min-width: 80rem) {
 	.cd-header {
-		--header-height: 240px
+		--header-height: 400px
 	}
 }
 
