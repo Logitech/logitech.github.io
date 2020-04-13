@@ -3387,14 +3387,14 @@ u,
 	--color-bg-h: 0;
 	--color-bg-s: 0%;
 	--color-bg-l: 100%;
-	--color-contrast-lower: hsl(0, 0%, 95%);
+	--color-contrast-lower: hsl(0, 0%, 100%); /* background of lower section*/
 	--color-contrast-lower-h: 0;
 	--color-contrast-lower-s: 0%;
-	--color-contrast-lower-l: 95%;
-	--color-contrast-low: hsl(240, 1%, 83%);
+	--color-contrast-lower-l: 100%;
+	--color-contrast-low: hsl(240, 1%, 0%); /* titles of sections */
 	--color-contrast-low-h: 240;
 	--color-contrast-low-s: 1%;
-	--color-contrast-low-l: 83%;
+	--color-contrast-low-l: 0%;
 	--color-contrast-medium: hsl(240, 1%, 48%);
 	--color-contrast-medium-h: 240;
 	--color-contrast-medium-s: 1%;
@@ -3562,22 +3562,22 @@ mark {
 }
 
 :root {
-	--cd-color-1: hsl(213, 7%, 33%);
+	--cd-color-1: hsl(213, 7%, 33%); /* non selected menu items */
 	--cd-color-1-h: 213;
 	--cd-color-1-s: 7%;
 	--cd-color-1-l: 33%;
-	--cd-color-2: hsl(210, 46%, 55%);
+	--cd-color-2: hsl(27, 0%, 0%); /* question title */
 	--cd-color-2-h: 73;
-	--cd-color-2-s: 46%;
-	--cd-color-2-l: 55%;
+	--cd-color-2-s: 0%;
+	--cd-color-2-l: 0%;
 	--cd-color-3: hsl(210, 14%, 49%);
 	--cd-color-3-h: 210;
 	--cd-color-3-s: 14%;
 	--cd-color-3-l: 49%;
-	--cd-color-4: hsl(0, 0%, 100%);
+	--cd-color-4: hsl(0, 1%, 83%); /*left menu text item and section blocks*/
 	--cd-color-4-h: 0;
-	--cd-color-4-s: 0%;
-	--cd-color-4-l: 100%;
+	--cd-color-4-s: 1%;
+	--cd-color-4-l: 83%;
 	--font-primary: 'Open Sans', sans-serif
 }
 
