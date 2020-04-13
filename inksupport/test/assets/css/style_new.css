@@ -3574,10 +3574,10 @@ mark {
 	--cd-color-3-h: 210;
 	--cd-color-3-s: 14%;
 	--cd-color-3-l: 49%;
-	--cd-color-4: hsl(0, 1%, 83%); /*left menu text item and section blocks*/
+	--cd-color-4: hsl(0, 1%, 92%); /*left menu text item and section blocks*/
 	--cd-color-4-h: 0;
 	--cd-color-4-s: 1%;
-	--cd-color-4-l: 83%;
+	--cd-color-4-l: 92%;
 	--font-primary: 'Open Sans', sans-serif
 }
 
@@ -3791,6 +3791,7 @@ html:not(.js) .cd-faq__group,
 }
 
 .cd-faq__title {
+	margin-top: 70px;
 	margin: 1.25em 0;
 	margin: var(--space-md) 0
 }
@@ -3798,21 +3799,26 @@ html:not(.js) .cd-faq__group,
 .cd-faq__title h2 {
 	text-transform: uppercase;
 	font-family: Brown-Pro-Bold;
-	font-size: 0.83333em;
-	font-size: var(--text-sm);
-
-	color: hsl(240, 1%, 74.7%);
+	font-size: 1em;
+	/*font-size: 0.83333em;*/
+	/*font-size: var(--text-sm);*/
+	/*color: hsl(240, 1%, 74.7%);
 	color: hsl(var(--color-contrast-low-h), var(--color-contrast-low-s), calc(var(--color-contrast-low-l)*0.9))
+	*/
+	color: rgb(162, 162, 163)
 }
 
 @media (min-width: 64rem) {
 	.cd-faq__title {
+		margin-top: 70px;
 		margin-bottom: 0.75em;
 		margin-bottom: var(--space-sm)
 	}
 	.cd-faq__title h2 {
-		font-size: 0.69444em;
-		font-size: var(--text-xs)
+		font-size: 1em;
+		color: rgb(162, 162, 163)
+		/*font-size: 0.69444em;*/
+		/*font-size: var(--text-xs)*/
 	}
 }
 
@@ -3845,6 +3851,7 @@ html:not(.js) .cd-faq__group,
 .cd-faq__trigger {
 	display: block;
 	position: relative;
+	padding-top: 20px;
 	margin: 1.25em 0 0.5em;
 	margin: var(--space-md) 0 var(--space-xs);
 	color: hsl(73, 46%, 55%);
@@ -3853,14 +3860,15 @@ html:not(.js) .cd-faq__group,
 
 @media (min-width: 64rem) {
 	.cd-faq__trigger {
-		font-weight: 300;
+		font-weight: 500;
 		margin: 0;
 		padding: 0.75em 2em 0.75em 0.75em;
 		padding: var(--space-sm) var(--space-lg) var(--space-sm) var(--space-sm)
 	}
 	.cd-faq__trigger span {
-		font-size: 1.2em;
-		font-size: var(--text-md)
+		font-family: "Brown-Pro-Bold";
+		font-size: 1em;
+		/*font-size: var(--text-md)*/
 	}
 	.cd-faq__trigger::before,
 	.cd-faq__trigger::after {
@@ -3902,12 +3910,14 @@ html:not(.js) .cd-faq__group,
 }
 
 .cd-faq__content .text-component {
-	font-size: 0.95em
+	font-size: 1em;
 }
 
-.cd-faq__content p {
-	/*color: hsl(210, 14%, 49%);*/
-	color: var(--cd-color-3)
+.cd-faq__content p,li {
+	font-family: Brown-Pro-Light;
+	font-size: 1em;
+	color:hsl(27, 0%, 0%);
+	color: var(--cd-color-2);
 }
 
 @media (min-width: 64rem) {
@@ -3918,9 +3928,18 @@ html:not(.js) .cd-faq__group,
 		overflow: hidden
 	}
 	.cd-faq__content .text-component {
-		font-size: 0.75em;
+		font-family: Brown-Pro-Light;
+		font-size: 0.9em;
 		padding-bottom: 1.25em;
 		padding-bottom: var(--space-md)
+	}
+
+	.cd-faq__content .text-component p{
+		font-family: Brown-Pro-Light;
+	}
+
+	.cd-faq__content .text-component li{
+		font-family: Brown-Pro-Light;
 	}
 }
 
