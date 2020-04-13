@@ -4,38 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>document.getElementsByTagName("html")[0].className += " js";</script>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>VR Ink FAQ</title>
-  <style> 
-	@font-face {
-	font-family: mainFont;
-	src: url(assets/font/Brown-Regular-Alt.otf);
-	}
-
-	* {
-	font-family: mainFont;
-	}
-	</style>
+  <link rel="stylesheet" href="assets/css/style_new.css">
+  <link rel="stylesheet" href="assets/css/header_styles.css"  type="text/css">
+  <title>Logitech VR Ink FAQ</title>
 </head>
 <body>
 <header class="cd-header flex flex-column flex-center">
-  <div class="text-component text-center">
-    <h1>Logitech VR Ink FAQ</h1>
-  </div>
+  <!--div class="header-background"-->
+    <!--header id="hero" class="hero"-->
+      <div class="flex-container w-container">
+        <div class="title_header">
+         <h1> <font color=hsl(0, 0%, 0%)><strong>VR Ink FAQ</strong></font> </h1>
+          <p>Find all you need to get going with your Logitech VR Ink stylus.</p>
+		</div>
+        <div class="hero-image-mask"><img src="assets/images/hero.png.imgo-p-500_less.jpg" alt="" class="hero-image"></div>
+      </div>
+    <!--/header-->
+  <!--/div-->
 </header>
 
 <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
 	<ul class="cd-faq__categories">
-		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#basics">Compatibility</a></li>
-		<li><a class="cd-faq__category truncate" href="#mobile">Install</a></li>
-		<li><a class="cd-faq__category truncate" href="#account">Configuration</a></li>
-		<li><a class="cd-faq__category truncate" href="#account">Usage</a></li>
-		<li><a class="cd-faq__category truncate" href="#payments">Issues</a></li>
-		<li><a class="cd-faq__category truncate" href="#privacy">Contact</a></li>
+		<li><a class="cd-faq__category cd-faq__category-selected truncate" href="#compatibility">Compatibility</a></li>
+		<li><a class="cd-faq__category truncate" href="#install">Install</a></li>
+		<li><a class="cd-faq__category truncate" href="#config">Configuration</a></li>
+		<li><a class="cd-faq__category truncate" href="#usage">Usage</a></li>
+		<li><a class="cd-faq__category truncate" href="#issues">Issues</a></li>
+		<li><a class="cd-faq__category truncate" href="#contact">Contact</a></li>
 	</ul> <!-- cd-faq__categories -->
 
 	<div class="cd-faq__items">
-		<ul id="basics" class="cd-faq__group">
+		<ul id="compatibility" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Compatibility</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>What platforms are compatible with VR Ink?</span></a>
@@ -72,7 +71,7 @@
 			</li>
 		</ul> <!-- cd-faq__group -->
 
-		<ul id="mobile" class="cd-faq__group">
+		<ul id="install" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Install</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>What do I need to install to use VR Ink?</span></a>
@@ -107,7 +106,7 @@
 			</li>
 		</ul> <!-- cd-faq__group -->
 
-		<ul id="account" class="cd-faq__group">
+		<ul id="config" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Configuration</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>What is the best Base Station placement for VR Ink?</span></a>
@@ -127,13 +126,13 @@
 				<a class="cd-faq__trigger" href="#0"><span>Can I change the sensitivity of the VR Ink Controls?</span></a>
 				<div class="cd-faq__content">
           <div class="text-component">
-            <p>
-				Yes.
+				Yes. <br><br>
 				<ul>
 					<li>Make sure to have our driver installed (from the Steam Store)</li>
 					<li>open the UI either from the task bar or the from the tray icon.</li>
 				</ul>
 				The VR Ink desktop driver interface allows you to modify the sensitivity curve of the following controls:
+				<br><br>
 				<ul>
 					<li>Grip force</li>
 					<li>Tip force</li>
@@ -164,7 +163,7 @@
 			</li>
 		</ul> <!-- cd-faq__group -->
 
-		<ul id="privacy" class="cd-faq__group">
+		<ul id="usage" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Usage</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>What Apps or Programs work with VR Ink?</span></a>
@@ -253,7 +252,7 @@
 			</li>
 		</ul> <!-- cd-faq__group -->
 
-		<ul id="payments" class="cd-faq__group">
+		<ul id="issues" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Issues</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>Does VR Ink work in SteamVR ‘Safe Mode’?</span></a>
@@ -284,7 +283,7 @@
 			</li>
 		</ul> <!-- cd-faq__group -->
 
-		<ul id="privacy" class="cd-faq__group">
+		<ul id="contact" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Contact</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>What if I have other questions?</span></a>
