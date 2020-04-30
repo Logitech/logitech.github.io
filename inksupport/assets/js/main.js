@@ -48,6 +48,17 @@
 			closeFaqPanel(faqs);
 		});
 
+		//add nav bottom border on scroll
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+			if (scroll <= 90 ) {
+				$(".sticky ").removeClass("greyborder");
+			}
+			else {
+			  $(".sticky ").addClass("greyborder");
+			}
+		});
+
 		// on desktop -> toggle faq content visibility when clicking on the trigger element
 		faqs.faqContainer.addEventListener('click', function(event){
 			if(getMq(faqs) != 'desktop') return;
