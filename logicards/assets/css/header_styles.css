@@ -61,17 +61,21 @@ a:hover {
 .title_header {
   font-family: Brown-Pro-Bold;
   margin-top: 20px;
-  margin-right: 20%;
-  margin-bottom: 16px;
+  margin-bottom:15px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.6;
+}
+@media screen and (max-width: 800px) {
+.textcenter{
+  text-align:center;
+  }
 }
  
 .title_header p {
   font-family: Brown-Pro-Thin;
   margin-top: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.6;
@@ -82,20 +86,6 @@ a:hover {
   padding-top:20px;
 }
 
-.hero-image {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0.5 auto;
-  -ms-flex: 0 0.5 auto;
-  flex: 0 0.5 auto;
-  background-color: rgba(43, 43, 43, 0);
-  background-image: url('../images/hero.png.imgo.png');
-  background-size: 125px;
-  opacity: 1;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: 50% 50%;
-  object-position: 50% 50%;
-}
 
 .title_header{
 opacity: 1;
@@ -224,6 +214,12 @@ opacity: 1;
 @media screen and (max-width: 600px) {
   .w-col-4 {
   width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .center{
+ margin-left:0px;
+ margin-right:0px;
+ width:100%;
 }
 .flex-container{
   display:block;

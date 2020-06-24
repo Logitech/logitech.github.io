@@ -139,7 +139,9 @@ hr {
 	padding: 0;
 	border: 0
 }
-
+header{
+	margin-bottom:50px;
+}
 html {
 	box-sizing: border-box
 }
@@ -196,7 +198,30 @@ select {
 	-moz-appearance: none;
 	appearance: none
 }
-
+.grey{
+	background-color: #4E545A;
+}
+.yellow{
+	background-color: #FEE16D;
+}
+.darkgrey{
+	background-color: #334148;
+	color:white !important;
+}
+.lightpink{
+	background-color: #DAC3B7;
+}
+.bigheader{
+	font-size:40px;
+}
+.header{
+	margin-top:20px;
+	padding-bottom:10px;
+	border-bottom: 1px solid black;
+}
+.green{
+	background-color: #78B89A;
+}
 select.form-control::-ms-expand {
 	display: none
 }
@@ -206,7 +231,9 @@ textarea {
 	overflow: auto;
 	vertical-align: top
 }
-
+.card{
+	padding-bottom:10px;
+}
 input::-ms-clear {
 	display: none
 }
@@ -3580,6 +3607,12 @@ mark {
 	--cd-color-4-l: 92%;
 	--font-primary: 'Open Sans', sans-serif
 }
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
 
 .cd-faq {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, .085), 0 1px 8px rgba(0, 0, 0, .1);
@@ -3637,10 +3670,7 @@ mark {
 	line-height: 50px;
 	padding: 0 2em 0 1.05em;
 	padding: 0 var(--space-lg) 0 calc(var(--space-sm)*1.4);
-	color: hsl(0, 0%, 100%);
-	color: var(--cd-color-4);
-	background-color: hsl(213, 7%, 33%);
-	background-color: var(--cd-color-1);
+	color: black;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	--border-color: hsl(213, 7%, 36.3%);
@@ -3648,6 +3678,7 @@ mark {
 	border-bottom: 1px solid hsl(213, 7%, 36.3%);
 	border-bottom: 1px solid var(--border-color)
 }
+
 
 .cd-faq__category::before,
 .cd-faq__category::after {
@@ -3658,8 +3689,7 @@ mark {
 	display: inline-block;
 	height: 1px;
 	width: 10px;
-	background-color: hsl(213, 7%, 52.8%);
-	background-color: hsl(var(--cd-color-1-h), var(--cd-color-1-s), calc(var(--cd-color-1-l)*1.6))
+	background-color: black;
 }
 
 .cd-faq__category::after {
@@ -3685,10 +3715,7 @@ li:last-child .cd-faq__category {
 	.cd-faq__category::after {
 		display: none
 	}
-	.cd-faq__category:hover {
-		background: hsl(213, 7%, 36.3%);
-		background: hsl(var(--cd-color-1-h), var(--cd-color-1-s), calc(var(--cd-color-1-l)*1.1))
-	}
+
 }
 
 @media (min-width: 80rem) {
@@ -3707,10 +3734,7 @@ li:last-child .cd-faq__category {
 }
 
 @media (min-width: 80rem) {
-	.cd-faq__category-selected {
-		background: hsl(213, 7%, 26.4%);
-		background: hsl(var(--cd-color-1-h), var(--cd-color-1-s), calc(var(--cd-color-1-l)*0.8))
-	}
+
 	.cd-faq__category-selected:hover {
 		background: hsl(213, 7%, 26.4%);
 		background: hsl(var(--cd-color-1-h), var(--cd-color-1-s), calc(var(--cd-color-1-l)*0.8))
