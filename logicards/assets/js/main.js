@@ -20,7 +20,7 @@
 			if(!category) return;
 			var mq = getMq(faqs),
 				selectedCategory = category.getAttribute('href').replace('#', '');
-			if(mq == 'mobile') { // on mobile, open faq panel
+		 // on mobile, open faq panel
 				event.preventDefault();
 				faqs.faqContainer.scrollTop = 0;
 				Util.addClass(faqs.faqContainer, 'cd-faq__items--slide-in');
@@ -31,12 +31,7 @@
 					Util.removeClass(selectedSection[0], 'cd-faq__group--selected');
 				}
 				Util.addClass(document.getElementById(selectedCategory), 'cd-faq__group--selected');
-			} else { // on desktop, scroll to section
-				if(!window.requestAnimationFrame) return;
-				event.preventDefault();
-				var windowScrollTop = window.scrollY || document.documentElement.scrollTop;
-				Util.scrollTo(document.getElementById(selectedCategory).getBoundingClientRect().top + windowScrollTop + 2, 200);
-			}
+		
 		});
 
 		// on mobile -> close faq panel
@@ -61,7 +56,7 @@
 
 		// on desktop -> toggle faq content visibility when clicking on the trigger element
 		faqs.faqContainer.addEventListener('click', function(event){
-			if(getMq(faqs) != 'desktop') return;
+		
 			var trigger = event.target.closest('.cd-faq__trigger');
 			if(!trigger) return;
 			event.preventDefault();

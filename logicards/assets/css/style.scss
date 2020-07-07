@@ -142,7 +142,7 @@
 	position: fixed;
   z-index: 1;
 	height: 100%;
-	width: 90%;
+	width: 50%;
 	top: 0;
 	right: 0;
 	background: var(--cd-color-4);
@@ -151,7 +151,8 @@
 	-webkit-overflow-scrolling: touch;
 	backface-visibility: hidden;
 	transform: translateZ(0) translateX(100%);
-	transition: transform .3s;
+  transition: transform .3s;
+  
 
 	@include breakpoint(md) {
 		position: static;
