@@ -88,7 +88,6 @@ a:hover {
   -ms-flex: 0 0.5 auto;
   flex: 0 0.5 auto;
   background-color: rgba(43, 43, 43, 0);
-  background-image: url('../images/hero.png.imgo.png');
   background-size: 125px;
   opacity: 1;
   -o-object-fit: cover;
